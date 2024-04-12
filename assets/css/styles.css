@@ -1,0 +1,24 @@
+.navbar-brand img {
+  height: 30px;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+}
+
+#couple:hover {
+  background: gray;
+  opacity: 35%;
+}
+
+#box:hover {
+  background: gray;
+  opacity: 35%;
+}
+
+#family:hover {
+  background: gray;
+  opacity: 35%;
+}
