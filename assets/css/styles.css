@@ -22,3 +22,19 @@
   background: gray;
   opacity: 35%;
 }
+
+.carousel-item:hover > .textoFlotante {
+  display: block;
+}
+
+.textoFlotante {
+  color: red;
+  font-size: 36px;
+  z-index: 999999999;
+  position: absolute;
+  display: none;
+}
+
+.flexNuestro {
+  display: flex;
+}
