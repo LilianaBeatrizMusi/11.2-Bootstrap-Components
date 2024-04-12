@@ -30,7 +30,6 @@
 .textoFlotante {
   color: red;
   font-size: 36px;
-  z-index: 999999999;
   position: absolute;
   display: none;
 }
