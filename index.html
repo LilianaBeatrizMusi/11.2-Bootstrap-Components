@@ -81,9 +81,32 @@
               aria-label="Check"
             />
             <button class="btn btn-outline-success" type="submit">
-              <a href="./quote-form.html">Search</a>
+              <a href="./quote-form.html" data-i18n="common.header.search">Search</a>
             </button>
           </form>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-i18n="common.header.lang.title"
+              >
+                Languages
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#" onclick="onChangeLanguage('en-EN')" data-i18n="common.header.lang.english">English</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" onclick="onChangeLanguage('es-ES')" data-i18n="common.header.lang.spanish">Spanish</a>
+                </li>                
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

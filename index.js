@@ -1,35 +1,76 @@
 const i18n = {
-    "en": {
+    "en-EN": {
         "common": {
             "header": {
                 "home": "Home",
-                "about": "About"
+                "about": "About",
+                "search": "Search",
+                "lang": {
+                    "title": "Languages",
+                    "english": "English",
+                    "spanish": "Spanish",
+                }
             }
         }
     },
 
-    es: {
+    'es-ES': {
         "common": {
             "header": {
                 "home": "Inicio",
-                "about": "Nosotros"
+                "about": "Nosotros",
+                "search": "Buscar",
+                "lang": {
+                    "title": "Idiomas",
+                    "english": "Ingles",
+                    "spanish": "Español",
+                }
             }
+        },
+        "services":{
+            "title": "Servicios"
         }
 
     },
 }
 
-let lang = "es"
-console.log(i18n[lang].common.header.home)
 
-function getElementsWithAttribute(attribute) {
-    return document.querySelectorAll(attribute);
+
+function translate(lang){
+    const elementsWithI18n = document.querySelectorAll('[data-i18n]')
+
+    elementsWithI18n.forEach(function (element) {
+        const arrayKeys = element.attributes["data-i18n"].nodeValue.split(".");
+        const traduccion = accederObjeto(i18n[lang], arrayKeys);
+        element.innerText = traduccion;
+    });
 }
 
-// Usage example
-const elementsWithI18n = getElementsWithAttribute('[data-i18n]');
-console.log(elementsWithI18n);
+function accederObjeto(objeto, elementos, indice = 0) {
+    if (indice === elementos.length) {
+        return objeto;
+    }
 
-elementsWithI18n.forEach(function(element) {
-    console.log(element.innerText,element.attributes[3].nodeValue);
-  });
+    const elemento = elementos[indice];
+    if (!objeto || typeof objeto !== 'object') {
+        return undefined;
+    }
+
+    return accederObjeto(objeto[elemento], elementos, indice + 1);
+}
+
+function onChangeLanguage(newLanguage){
+    lang = newLanguage
+    translate(lang)
+}
+
+let lang = navigator.language || "en-EN"
+
+function init(){
+    if(lang != "en-EN"){
+        translate(lang)
+    }
+}
+
+init()
+
