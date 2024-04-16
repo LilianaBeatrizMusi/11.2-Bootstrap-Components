@@ -23,7 +23,7 @@
   opacity: 35%;
 }
 
-.carousel-item:hover > .textoFlotante {
+.active:hover > .textoFlotante {
   display: block;
 }
 
@@ -34,8 +34,30 @@
   display: none;
 }
 
-.flexNuestro {
-  display: flex;
+.logo:hover {
+  animation: tilt-n-move-shaking 0.25s infinite;
+}
+
+.logo span {
+  margin-left: 5px;
+}
+
+@keyframes tilt-n-move-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .container_card{
