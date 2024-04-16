@@ -23,15 +23,33 @@
   opacity: 35%;
 } */
 
-.active:hover > .textoFlotante {
+/* .active:hover > .textoFlotante {
   display: block;
-}
+} */
 
-.textoFlotante {
+/* .textoFlotante {
   color: red;
   font-size: 36px;
   position: absolute;
   display: none;
+} */
+
+.textoFlotante {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  position: absolute;
+  display: none;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.carousel-item.hover-active {
+  background-color: gray;
+  opacity: 0.35;
+}
+
+.carousel-item.hover-active .textoFlotante {
+  display: block;
 }
 
 .logo:hover {
