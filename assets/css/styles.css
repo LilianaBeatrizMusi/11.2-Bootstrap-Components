@@ -23,7 +23,7 @@
   opacity: 35%;
 }
 
-.carousel-item:hover > .textoFlotante {
+.active:hover > .textoFlotante {
   display: block;
 }
 
