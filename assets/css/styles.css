@@ -8,7 +8,7 @@
   border-radius: 0.75rem;
 }
 
-#couple:hover {
+/* #couple:hover {
   background: gray;
   opacity: 35%;
 }
@@ -21,7 +21,7 @@
 #family:hover {
   background: gray;
   opacity: 35%;
-}
+} */
 
 .active:hover > .textoFlotante {
   display: block;
