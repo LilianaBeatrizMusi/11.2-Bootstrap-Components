@@ -38,3 +38,8 @@
   display: flex;
 }
 
+.container_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
