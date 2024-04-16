@@ -141,6 +141,7 @@ const i18n = {
         s1: "Couple",
         s2: "Dog",
         s3: "Family",
+        faqs: "FAQs",
         lang: {
           title: "Languages",
           english: "English",
@@ -171,6 +172,7 @@ const i18n = {
         s1: "Pareja",
         s2: "Perro",
         s3: "Familia",
+        faqs: "Preguntas Frecuentes",
         lang: {
           title: "Idiomas",
           english: "Ingles",
