@@ -5,23 +5,19 @@ Los links y anchors se encuentran vinculados.
 
 Tabla de contenidos:
 
-Barra de menú
-  Inicio
-  Nosotros
-    Página: Nosotros
-  Servicios
-Idiomas
-  Inglés
-  Español
-Pedir Presupuesto
-  Página: Formulario de Presupuesto
-Contáctenos
-  Página: Formulario de Contacto
-Pié de Página
-  Inicio
-  Nosotros
-  FAQs
-    Página: FAQs
+Barra de menú:
+  Inicio/
+  Nosotros/
+  Servicios/
+Idiomas:
+  Inglés/
+  Español/
+Formulario Presupuesto/
+Formulario de Contacto/
+Pié de página:
+  Inicio/
+  Nosotros/
+  FAQs/
 
 Créditos: Gustavo Lobosco, Júnior Nogueira, Liliana Musi
 
