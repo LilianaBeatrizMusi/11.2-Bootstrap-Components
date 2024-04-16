@@ -18,6 +18,8 @@ const i18n = {
                 "why": "Why Move Whith Us",
                 "p3": "We offer a range of services to suit your individual needs, whether you're moving locally or across the country. Our team can handle everything from packing and loading to unloading and unpacking, so you can focus on settling into your new home. And with our transparent pricing and no hidden fees, you can trust that you're getting a fair and competitive rate for our services.",
                 "p4": "At our core, we believe that moving should be an exciting and positive experience, not a stressful one. By providing exceptional moving services in the US, we hope to revolutionize the way people think about moving and provide a better, more personalized experience for our customers. Contact us today to learn more about how we can help you with your next move.", 
+                "faqs": "FAQs",
+                
                 "lang": {
                     "title": "Languages",
                     "english": "English",
@@ -46,7 +48,7 @@ const i18n = {
                 "why": "¿Por qué Mudarse con Nosotros?",
                 "p3": "Ofrecemos una variedad de servicios que se ajustan a sus necesidades, ya sea que se mude localmente o a otra parte del país. Nuestro equipo se encarga de todo desde el embalaje, la carga y descarga hasta el desembalado, así usted se puede enfocar en acomodarse en su nuevo hogar. Y con nuestros precios transparentes y sin costos sorpresa, puede estar seguro de que las tarifas por nuestros servicios serán razonables y competitivas.",
                 "p4": "De verdad creemos que mudarse debería ser una experiencia emocionante y positiva. Al ofrecer un servicio de mudanza excepcional, esperamos revolucionar el concepto de mudanza al ofrecer un servicio de excelencia y personalizado a nuestros clientes. Contáctenos hoy mismo para saber como podemos ayudarlo en su mudanza.",
-
+                "faqs": "Preguntas Frecuentes",
                 "lang": {
                     "title": "Idiomas",
                     "english": "Ingles",
