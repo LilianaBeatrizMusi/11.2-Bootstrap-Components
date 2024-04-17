@@ -8,32 +8,6 @@
   border-radius: 0.75rem;
 }
 
-/* #couple:hover {
-  background: gray;
-  opacity: 35%;
-}
-
-#box:hover {
-  background: gray;
-  opacity: 35%;
-}
-
-#family:hover {
-  background: gray;
-  opacity: 35%;
-} */
-
-/* .active:hover > .textoFlotante {
-  display: block;
-} */
-
-/* .textoFlotante {
-  color: red;
-  font-size: 36px;
-  position: absolute;
-  display: none;
-} */
-
 .textoFlotante {
   color: rgb(255, 255, 255);
   font-size: 48px;
@@ -60,6 +34,16 @@
   margin-left: 5px;
 }
 
+@media screen and (min-width: 992px) {
+  .circle {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @keyframes tilt-n-move-shaking {
   0% {
     transform: rotate(0deg);
@@ -77,9 +61,3 @@
     transform: rotate(0deg);
   }
 }
-
-.container_card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
