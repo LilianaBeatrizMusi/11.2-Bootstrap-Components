@@ -160,7 +160,7 @@ const i18n = {
         professional: "Servicio Profesional",
         countrywide: "A Todo el País",
         touch: "Toque Personal",
-        move: "Múdese Felíz",
+        move: "Múdese sin estrés",
         p1: "Bienvenido a nuestro sitio web. Nuestra misión es brindarle un servicio de mudanza excepcional a nuestros clientes de Argentina. Creemos que la mudanza no debe ser estresante o complicada y nos apasiona que el proceso resulte perfecto y agradable para nuestros clientes.",
         quote: "Pedir Presupuesto",
         contact: "Contáctenos",
