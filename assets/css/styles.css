@@ -55,14 +55,18 @@
 .firefox {
   scrollbar-color: #0d6efd #f1f1f1;
 }
+.circle {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+}
 
 @media screen and (min-width: 992px) {
   .circle {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
+    display: block;
   }
 }
 
