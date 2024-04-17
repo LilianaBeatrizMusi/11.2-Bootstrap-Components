@@ -8,3 +8,7 @@ document.querySelectorAll(".carousel-item").forEach((item) => {
     this.classList.remove("hover-active");
   });
 });
+
+if (navigator.userAgent.indexOf("Firefox") !== -1) {
+  document.documentElement.classList.add("firefox");
+}

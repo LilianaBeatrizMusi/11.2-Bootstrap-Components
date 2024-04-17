@@ -34,6 +34,28 @@
   margin-left: 5px;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d0d0d0;
+}
+
+.firefox {
+  scrollbar-color: #0d6efd #f1f1f1;
+}
+
 @media screen and (min-width: 992px) {
   .circle {
     position: fixed;
