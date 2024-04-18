@@ -118,6 +118,10 @@
 //   init();
 // });
 
+
+
+//Dictionary
+// Bug for Linux corrected
 const i18n = {
   "en-EN": {
     common: {

@@ -19,6 +19,6 @@ Pié de página:
   Nosotros/
   FAQs/
 
-Créditos: Gustavo Lobosco, Júnior Nogueira, Liliana Musi
+Créditos: Júnior Nogueira, Liliana Musi
 
 Estado del Proyecto: En desarrollo
