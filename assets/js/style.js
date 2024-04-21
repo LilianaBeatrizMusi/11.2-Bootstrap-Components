@@ -1,3 +1,5 @@
+// Script para manejar estilos cuando hay houver
+
 document.querySelectorAll(".carousel-item").forEach((item) => {
   item.addEventListener("mouseenter", function () {
     if (this.classList.contains("active")) {
